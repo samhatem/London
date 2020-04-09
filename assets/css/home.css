@@ -22,7 +22,7 @@ span.site-title {
 /* Navigation
 /*------------------------------------------------- */
 
-.nav.home {
+.nav-container > .nav {
     justify-content: space-evenly;
     margin: 0 10vw;
 }

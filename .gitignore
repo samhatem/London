@@ -21,6 +21,3 @@ yarn.lock
 projectFilesBackup
 
 .DS_Store
-
-dist/
-built/
