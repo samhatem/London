@@ -10,12 +10,16 @@ into the {body} of the default.hbs template --}}
     {{/if}}
 {{/is}}
 
-<div class="post-feed">
-    {{#foreach posts}}
+<div class="feed-container">
+    <div class="feed-title">
+        <h1>Blog</h1>
+    </div>
+    <div class="post-feed">
+        {{#foreach posts}}
 
-        {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
-        {{> "post-card"}}
+            {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+            {{> "post-card"}}
 
-    {{/foreach}}
+        {{/foreach}}
+    </div>
 </div>
-

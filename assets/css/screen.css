@@ -203,6 +203,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .site-head-logo:hover {
@@ -394,6 +395,11 @@ body {
 /* Post Feed
 /* ---------------------------------------------------------- */
 
+.feed-title {
+    margin-top: 7vh;
+    text-align: center;
+}
+
 .post-feed {
     display: flex;
     flex-wrap: wrap;
@@ -401,11 +407,11 @@ body {
 
 .post-card {
     position: relative;
-    flex: 1 1 50%;
+    width: 100%;
     display: flex;
     position: relative;
-    height: 35vw;
-    background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
+    height: 25vw;
+    background: linear-gradient(135deg,#626b6bbf,#626b6b) 50%;
     background-size: cover;
     overflow: hidden;
     counter-increment: posts;
@@ -428,8 +434,6 @@ body {
 }
 
 .post-card-content {
-    flex: 1 1 auto;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -445,6 +449,7 @@ body {
 
 .post-card.with-image .post-card-content {
     opacity: 0;
+    padding: 4vw;
 }
 @media (max-width: 700px) {
   .post-card.with-image .post-card-content {
@@ -464,22 +469,10 @@ body {
     max-width: 70%;
     text-align: center;
     transition: all 0.3s cubic-bezier(.33,0,.2,1);
+    padding-bottom: 7vh;
 }
 
 /* Posts without images */
-.post-card.no-image:before {
-    display: block;
-    content: counter(posts);
-    position: absolute;
-    bottom: -0.15em;
-    right: 5vw;
-    font-size: 28vw;
-    line-height: 1em;
-    font-weight: var(--font-heavy);
-    letter-spacing: -0.1em;
-    color: rgba(0,0,0,0.2);
-}
-
 .post-card.no-image .post-card-content {
     justify-content: flex-start;
     align-items: flex-start;
