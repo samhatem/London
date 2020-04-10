@@ -411,11 +411,16 @@ body {
     display: flex;
     position: relative;
     height: 20vw;
-    background: linear-gradient(135deg,#626b6bd9,#626b6b) 50%;
+    background: linear-gradient(135deg,#46474f,#333333) 50%;
     background-size: cover;
     overflow: hidden;
     counter-increment: posts;
     margin: 1vw;
+}
+
+.post-card-excerpt {
+    max-height: 50%;
+    overflow: hidden;
 }
 
 @media (max-width: 700px) {
@@ -468,7 +473,6 @@ body {
     display: inline-block;
     font-size: 3.4rem;
     max-width: 70%;
-    text-align: center;
     transition: all 0.3s cubic-bezier(.33,0,.2,1);
     padding-bottom: 7vh;
 }
@@ -493,6 +497,11 @@ body {
 @media (max-width: 1200px) {
     .post-card.no-image .post-card-title {
         font-size: 3.4rem;
+        max-width: 100%;
+    }
+
+    h2.post-card-title {
+        max-width: 100%
     }
 }
 @media (max-width: 700px) {
