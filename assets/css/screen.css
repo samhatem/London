@@ -19,6 +19,8 @@ production stylesheet in assets/built/screen.css using gulp dev
 @import "components/hamburger.css";
 @import "components/animations.css";
 @import "/home.css";
+@import "components/mc-form.css";
+@import "components/thank-you.css";
 
 
 /* Main - Theme styles
@@ -52,7 +54,7 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-wrapper {
-    padding: 3vw;
+    padding: 3vw 3vw 0 3vw;
     min-height: 100vh;
 }
 @media (max-width: 850px) {
