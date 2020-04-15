@@ -2,12 +2,23 @@
 /*-----------------------------------------------*/
 
 #mc_embed_signup {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
-.sign-up-title {
+#mc_embed_signup.home {
+  padding-top: 15vh;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+#sign-up-title {
   text-align: center;
+  font-weight: 100;
+}
+
+#sign-up-title.home {
+  font-size: 200%
 }
 
 .sign-up-blurb {
@@ -19,21 +30,21 @@
   font-size: 1.25em;
 }
 
-.indicates-required {
-    width: 100%;
-    text-align: right;
-    font-size: 0.75em;
-}
-
 .asterisk {
     color: #f44336;
 }
 
 .mc-field-group {
-    margin-bottom: 10px;
+    margin: 20px 40px;
 }
 
 #mc-embedded-subscribe {
     display: block;
     margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .blurb-lg {
+    display: none;
+  }
 }

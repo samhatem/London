@@ -23,13 +23,29 @@ span.site-title {
 /* Navigation
 /*------------------------------------------------- */
 
+.nav {
+    flex-direction: row;
+    width: auto;
+}
+
+.nav-container {
+  height: 10vh;
+}
+
 .nav-container > .nav {
     justify-content: space-evenly;
     margin: 0 10vw;
+    flex-direction: row;
+    width: auto;
 }
 
 .nav-home.nav-current {
     display: none;
+}
+
+.form-container {
+  height: 85vh;
+  margin-bottom: 15vh;
 }
 
 /* Mobile

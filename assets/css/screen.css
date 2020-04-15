@@ -21,6 +21,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 @import "/home.css";
 @import "components/mc-form.css";
 @import "components/thank-you.css";
+@import "components/contact.css";
 
 
 /* Main - Theme styles
@@ -52,6 +53,10 @@ body {
 
 /* Layout
 /* ---------------------------------------------------------- */
+
+.site-main {
+  min-height: 68vh;
+}
 
 .site-wrapper {
     padding: 3vw 3vw 0 3vw;
@@ -127,6 +132,9 @@ body {
     text-align: center;
     color: color(var(--color-border) l(-20%));
     font-size: 1.4rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .site-foot a {
@@ -421,7 +429,7 @@ body {
 }
 
 .post-card-excerpt {
-    max-height: 50%;
+    max-height: 6em;
     overflow: hidden;
 }
 
