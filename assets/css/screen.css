@@ -542,7 +542,6 @@ body {
 }
 
 .post-content-excerpt {
-    margin: -2vw 0 3vw;
     font-size: 2.2rem;
     line-height: 1.6em;
     color: var(--color-base);
@@ -569,6 +568,11 @@ body {
     font-size: 1.9rem;
     line-height: 1.65em;
 }
+
+.post-date {
+  padding-bottom: 2em;
+}
+
 @media (max-width: 500px) {
     .post-content-body {
         font-size: 1.7rem;
