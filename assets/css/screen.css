@@ -28,7 +28,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', monospace;
     color: var(--color-base);
     background: var(--color-bg);
     transition: background 0.3s ease-out;
