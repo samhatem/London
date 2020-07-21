@@ -14,13 +14,13 @@
 :root {
 
     /* Colours */
-    --color-primary: #333333;
-    --color-base: #333333;
+    --color-primary: #1b1b1b;
+    --color-base: #1b1b1b;
     --color-border: #ddd;
     --color-bg: #f8f8f8;
 
     /* Fonts */
-    --font-sans-serif: 'Inter', sans-serif;
+    --font-sans-serif: 'futura', sans-serif;
     --font-serif: Georgia, Times, serif;
     --font-mono: 'IBM Plex Mono', Courier, monospace;
     --font-light: 100;
